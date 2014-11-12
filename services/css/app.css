@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+ul {
+	list-style: none;
+}
+
+.twitter-screenname, .tweet-timestamp {
+	display: block;
+}
+
+.tweet-timestamp {
+	clear: both;
+	text-align: right;
+}
+
+#twitter-stream li {
+	margin-bottom: 20px;
+}
+
+.odd {
+	background-color: #d3d3d3;
+}

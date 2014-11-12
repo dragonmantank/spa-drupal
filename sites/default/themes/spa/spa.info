@@ -1,0 +1,4 @@
+name = SPA Sample Theme
+description = SPA Sample Theme
+core = 7.x
+base theme = bartik

@@ -1,0 +1,4 @@
+name = Single Page Application
+description = Single Page Application Controller
+core = 7.x
+package = SPA

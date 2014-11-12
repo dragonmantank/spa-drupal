@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * Implements hook_menu().
+ * 
+ * @return array
+ *   Menu structure
+ */
+function spa_app_menu() {
+    $items = array();
+    
+    $items['app'] = array(
+        'page callback' => 'spa_app_main',
+        'access arguments' => array('access content'),
+    );
+    
+    return $items;
+}
+
+function spa_app_main() {
+    // Add your JS
+    // Add your template calls
+    // Output your raw HTML
+}
